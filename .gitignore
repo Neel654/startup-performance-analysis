@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Data
+data/
+*.csv
+*.json
+*.xlsx
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.DS_Store
+
+# Database
+*.db
