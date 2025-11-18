@@ -45,4 +45,4 @@ MIT License
 
 ## 📧 Contact
 
-Your Name - your.email@example.com
+Neel Prajapati - neelp6911@gmail.com
