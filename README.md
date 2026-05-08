@@ -1,156 +1,232 @@
 # 📊 Startup Performance Analysis - AI-Powered Analytics System
 
-An end-to-end **Python analytics project** for evaluating startup performance using ETL pipelines, machine learning models, and structured testing. The repository presents itself as an AI-powered analytics system for startup performance evaluation, with organized `src`, `docs`, and `tests` directories plus environment configuration through `.env.example` and Python dependencies in `requirements.txt`. 
+An end-to-end Python analytics platform built for evaluating startup performance using ETL workflows, machine learning pipelines, structured testing, and maintainable software architecture.
+
+[![Python](https://img.shields.io/badge/Python-Analytics-blue?style=for-the-badge&logo=python)](https://www.python.org/) [![Machine Learning](https://img.shields.io/badge/AI-Machine%20Learning-green?style=for-the-badge&logo=tensorflow)]() [![ETL Pipeline](https://img.shields.io/badge/Data-ETL%20Pipeline-orange?style=for-the-badge&logo=apacheairflow)]() [![Testing](https://img.shields.io/badge/Tests-Automated-red?style=for-the-badge&logo=pytest)]()
+
+---
 
 ## 🎯 Project Overview
 
-Startup Performance Analysis is designed as a data and machine learning project for assessing how startups perform using analytics workflows and predictive modeling. The repository structure and commit history indicate a complete tool that includes ETL components, ML models, documentation, and automated tests rather than only a notebook-based analysis. 
+Startup Performance Analysis is designed as a production-style analytics system that processes startup-related data through ETL pipelines, applies machine learning workflows, and generates structured performance insights.
 
-### Key Capabilities
+Unlike a basic notebook-only analysis project, this repository follows a clean engineering-focused architecture with:
+- Modular Python source code
+- Automated testing support
+- Documentation organization
+- Environment-based configuration
+- Scalable analytics workflow design
 
-- ✅ **AI-powered evaluation** - The repository is described as an analytics system for startup performance evaluation. 
-- ✅ **ETL pipeline support** - Commit history references ETL as part of the complete startup analysis tool. 
-- ✅ **Machine learning workflow** - Commit history explicitly mentions ML models as part of the implementation. 
-- ✅ **Test coverage structure** - A dedicated `tests` directory shows the project includes a testing layer. 
-- ✅ **Documentation-first organization** - A `docs` folder and a recently refactored README indicate emphasis on maintainable documentation. 
+The project demonstrates practical experience in combining:
+- Data engineering
+- Machine learning
+- Software architecture
+- Analytics workflow development
+
+---
+
+## ✨ Key Capabilities
+
+- ✅ **AI-powered startup evaluation** using machine learning workflows
+- ✅ **ETL pipeline architecture** for extracting, cleaning, and transforming startup datasets
+- ✅ **Structured analytics workflow** designed for maintainability and scalability
+- ✅ **Automated testing support** through a dedicated `tests/` layer
+- ✅ **Environment-based configuration** using `.env.example`
+- ✅ **Professional repository organization** with separate `src`, `docs`, and `tests` modules
+
+---
 
 ## 🏗️ Architecture
 
 ```text
 ┌──────────────────────┐
-│   Input Startup Data │
+│   Startup Input Data │
 └──────────┬───────────┘
            │
            ▼
 ┌──────────────────────┐
-│     ETL Pipeline     │
-│ Extract • Clean •    │
-│ Transform            │
+│      ETL Pipeline    │
+│ Extract • Transform  │
+│ Clean • Validate     │
 └──────────┬───────────┘
            │
            ▼
 ┌──────────────────────┐
-│   Feature / Model    │
-│   Processing Layer   │
+│ Feature Engineering  │
+│ & Data Processing    │
 └──────────┬───────────┘
            │
            ▼
 ┌──────────────────────┐
-│ AI / ML Evaluation   │
-│ and Performance      │
-│ Insights             │
+│ Machine Learning     │
+│ Evaluation Layer     │
 └──────────┬───────────┘
            │
            ▼
 ┌──────────────────────┐
-│ Output Reports /     │
-│ Analysis Results     │
+│ Startup Performance  │
+│ Insights & Reports   │
 └──────────────────────┘
 ```
 
-### Core project areas
+The project is structured like a real analytics application rather than a one-off experiment, making it easier to extend with new models, datasets, and reporting workflows.
 
-- **`src/`** - Houses the main Python implementation. 
-- **`tests/`** - Contains the testing layer for project validation. 
-- **`docs/`** - Stores supporting documentation and project references. 
-- **`.env.example`** - Suggests environment-based configuration for local setup. 
-- **`requirements.txt`** - Defines Python package dependencies. 
+---
 
 ## 🛠️ Technology Stack
 
 | Layer | Technology |
 |---|---|
-| **Language** | Python  |
-| **Project Type** | AI-powered analytics system  |
-| **Pipeline Design** | ETL-based workflow referenced in commit history  |
-| **Modeling Layer** | Machine learning models referenced in commit history  |
-| **Testing** | Dedicated `tests` directory  |
-| **Configuration** | `.env.example` + `requirements.txt`  |
+| **Language** | Python |
+| **Project Type** | AI-powered analytics system |
+| **Pipeline Design** | ETL workflow architecture |
+| **Machine Learning** | Predictive modeling workflows |
+| **Testing** | Automated testing structure |
+| **Configuration** | `.env.example` + `requirements.txt` |
+| **Documentation** | Dedicated `docs/` layer |
+
+---
 
 ## 📁 Project Structure
 
 ```text
 startup-performance-analysis/
-├── docs/               # Project documentation
-├── src/                # Main source code
-├── tests/              # Test suite
-├── .env.example        # Example environment configuration
-├── requirements.txt    # Python dependencies
-├── .gitignore          # Git ignore rules
-└── README.md           # Project overview and setup guide
+├── docs/                # Project documentation
+├── src/                 # Main analytics source code
+├── tests/               # Automated tests
+├── .env.example         # Environment configuration template
+├── requirements.txt     # Python dependencies
+├── .gitignore           # Git ignore rules
+└── README.md            # Project documentation
 ```
 
-The repository layout is especially strong for a portfolio project because it separates implementation, testing, and documentation in a clean and professional way. The latest commit also shows active refinement of the README for clarity and updates. 
+### Core Project Areas
+
+- **`src/`** — Main analytics and machine learning implementation
+- **`tests/`** — Validation and testing workflows
+- **`docs/`** — Supporting documentation and references
+- **`.env.example`** — Environment-based configuration setup
+- **`requirements.txt`** — Python dependency management
+
+---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Python installed locally. 
-- Required dependencies from `requirements.txt`. 
-- Environment variables configured using `.env.example` where needed. 
+- Python 3.10+
+- pip package manager
 
 ### Installation & Setup
 
-1. **Clone the repository** 
-   ```bash
-   git clone https://github.com/Neel654/startup-performance-analysis.git
-   cd startup-performance-analysis
-   ```
+1. **Clone the repository**
+```bash
+git clone https://github.com/Neel654/startup-performance-analysis.git
+cd startup-performance-analysis
+```
 
-2. **Install dependencies** 
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
 
-3. **Configure environment variables** 
-   ```bash
-   cp .env.example .env
-   ```
+3. **Configure environment variables**
+```bash
+cp .env.example .env
+```
 
-4. **Run the project**
-   ```bash
-   python -m src
-   ```
+4. **Run the application**
+```bash
+python -m src
+```
+
+---
 
 ## 🔄 Workflow Design
 
-Based on the repository description and commit history, the project appears to follow a layered analytics workflow: ingest startup-related data, process it through ETL steps, apply ML models, and generate evaluation outputs. The presence of `docs` and `tests` suggests the project is designed as a maintainable application rather than a one-off experiment. 
+The analytics workflow follows a layered processing pipeline:
 
-### Expected lifecycle
+### Data Lifecycle
 
-1. Load or receive startup-related input data. 
-2. Process and transform the data through ETL logic referenced in the commit history. 
-3. Run machine learning models for startup performance evaluation. 
-4. Validate behavior through the test suite and supporting documentation. 
+1. **Input Processing**
+   - Startup-related datasets are loaded into the system
+
+2. **ETL Operations**
+   - Data is cleaned, transformed, and validated
+
+3. **Feature Engineering**
+   - Relevant startup metrics and features are prepared
+
+4. **Machine Learning Evaluation**
+   - Predictive models evaluate startup performance trends
+
+5. **Insight Generation**
+   - Results and analytics outputs are generated
+
+6. **Testing & Validation**
+   - Project behavior is validated through automated tests
+
+---
+
+## 📌 Project Highlights
+
+### Engineering Focus
+- Clean Python project architecture
+- Modular source organization
+- Scalable analytics workflow design
+- Structured repository layout
+
+### Analytics Focus
+- ETL-based data workflows
+- Machine learning integration
+- Startup performance evaluation
+- Data transformation pipeline support
+
+### Maintainability
+- Dedicated documentation structure
+- Environment-based configuration
+- Automated test organization
+- Professional repository standards
+
+---
 
 ## 💡 Why This Project Stands Out
 
-This repo is stronger than a basic analysis notebook because it appears to combine **data engineering**, **machine learning**, and **software project structure** in one codebase. For recruiters, that signals practical experience with building maintainable analytics systems rather than only training a model in isolation. 
+This repository demonstrates more than just model training.
+
+It combines:
+- Data engineering workflows
+- Machine learning concepts
+- Software project organization
+- Maintainable architecture design
+
+For recruiters and engineers, this signals experience with building structured analytics systems rather than isolated notebook experiments.
+
+---
 
 ## 🧠 Learning Outcomes
 
-This project demonstrates practical exposure to:
+This project demonstrates practical experience with:
+- ETL pipeline design
+- Machine learning workflow integration
+- Python software architecture
+- Repository organization best practices
+- Testing and maintainability concepts
+- Analytics-focused application development
 
-- ETL and analytics workflow design. 
-- Applying machine learning in a business-analysis setting. 
-- Python project organization with source, documentation, and tests. 
-- Building a cleaner end-to-end analytics repository for portfolio presentation. 
-
-## ✅ Suggested Improvements
-
-To make this README feel as strong as the Midas repo, the next upgrade would be adding implementation-specific details from the actual source files:
-
-- A real data flow diagram tied to the code.
-- A list of core modules and their responsibilities.
-- Model names, evaluation metrics, and example outputs.
-- Setup commands for running tests.
-- Example input dataset fields and generated insights.
+---
 
 ## 📄 Resume-Ready Description
 
-- Built a Python-based startup analytics system with ETL workflows, machine learning components, structured documentation, and automated tests to evaluate startup performance in a maintainable end-to-end project architecture. 
+- Built a Python-based startup analytics platform integrating ETL workflows, machine learning pipelines, automated testing, and modular project architecture for scalable startup performance evaluation.
+
+---
 
 ## 👤 Author
 
-**Neel Prajapati** - Developer of an AI-powered startup performance evaluation project in Python.
+**Neel Prajapati**  
+Computer Science Student @ Toronto Metropolitan University
+
+---
+
+⭐ Feel free to explore the repository, contribute improvements, or connect with me!
